@@ -1,0 +1,42 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"cuda10.0/toolkit/10.0.130"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "cuda10.0/toolkit/10.0.130"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"cuda10.0/fft/10.0.130"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "cuda10.0/fft/10.0.130"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"cudnn/7.4.2"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "cudnn/7.4.2"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+/var/spool/slurm/d/job31121/slurm_script: line 13: /cm/local/apps/cuda/libs/current/bin/nvidia-smi: No such file or directory
+/var/spool/slurm/d/job31121/slurm_script: line 14: conda: command not found
+  File "agent_motion_prediction_resnet50.py", line 55
+    def build_model(cfg: Dict) -> torch.nn.Module:
+                       ^
+SyntaxError: invalid syntax

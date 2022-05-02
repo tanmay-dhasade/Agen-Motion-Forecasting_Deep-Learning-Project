@@ -1,0 +1,152 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"cuda10.0/toolkit/10.0.130"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "cuda10.0/toolkit/10.0.130"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"cuda10.0/fft/10.0.130"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "cuda10.0/fft/10.0.130"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"cudnn/7.4.2"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "cudnn/7.4.2"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+/var/spool/slurm/d/job31104/slurm_script: line 13: /cm/local/apps/cuda/libs/current/bin/nvidia-smi: No such file or directory
+/var/spool/slurm/d/job31104/slurm_script: line 14: conda: command not found
+Dataset and L5kit are ready !
+/home/trdhasade/ExtractedDataset
+{'format_version': 4, 'model_params': {'model_architecture': 'xception', 'history_num_frames': 10, 'future_num_frames': 50, 'step_time': 0.1, 'render_ego_history': True}, 'raster_params': {'raster_size': [224, 224], 'pixel_size': [0.5, 0.5], 'ego_center': [0.25, 0.5], 'map_type': 'py_semantic', 'satellite_map_key': 'aerial_map/aerial_map.png', 'semantic_map_key': 'semantic_map/semantic_map.pb', 'dataset_meta_key': 'meta.json', 'filter_agents_threshold': 0.5, 'disable_traffic_light_faces': False, 'set_origin_to_bottom': True}, 'train_data_loader': {'key': 'scenes/train.zarr', 'batch_size': 12, 'shuffle': True, 'num_workers': 16}, 'val_data_loader': {'key': 'scenes/validate.zarr', 'batch_size': 12, 'shuffle': False, 'num_workers': 16}, 'train_params': {'checkpoint_every_n_steps': 10000, 'max_num_steps': 50, 'eval_every_n_steps': 10000}}
++------------+------------+------------+---------------+-----------------+----------------------+----------------------+----------------------+---------------------+
+| Num Scenes | Num Frames | Num Agents | Num TR lights | Total Time (hr) | Avg Frames per Scene | Avg Agents per Frame | Avg Scene Time (sec) | Avg Frame frequency |
++------------+------------+------------+---------------+-----------------+----------------------+----------------------+----------------------+---------------------+
+|   16265    |  4039527   | 320124624  |    38735988   |      112.19     |        248.36        |        79.25         |        24.83         |        10.00        |
++------------+------------+------------+---------------+-----------------+----------------------+----------------------+----------------------+---------------------+
+/home/trdhasade/anaconda/envs/py37/lib/python3.7/site-packages/torch/utils/data/dataloader.py:490: UserWarning: This DataLoader will create 16 worker processes in total. Our suggested max number of worker in current system is 4, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  cpuset_checked))
+/home/trdhasade/anaconda/envs/py37/lib/python3.7/site-packages/torch/cuda/__init__.py:82: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 9020). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at  ../c10/cuda/CUDAFunctions.cpp:112.)
+  return torch._C._cuda_getDeviceCount() > 0
+  0%|          | 0/50 [00:00<?, ?it/s]loss: 13378.5947265625 loss(avg): 13378.5947265625:   0%|          | 0/50 [00:26<?, ?it/s]loss: 13378.5947265625 loss(avg): 13378.5947265625:   2%|▏         | 1/50 [00:26<21:31, 26.36s/it]loss: 8309.0146484375 loss(avg): 10843.8046875:   2%|▏         | 1/50 [00:32<21:31, 26.36s/it]    loss: 8309.0146484375 loss(avg): 10843.8046875:   4%|▍         | 2/50 [00:32<11:38, 14.55s/it]loss: 622.3186645507812 loss(avg): 7436.642679850261:   4%|▍         | 2/50 [00:38<11:38, 14.55s/it]loss: 622.3186645507812 loss(avg): 7436.642679850261:   6%|▌         | 3/50 [00:38<08:24, 10.73s/it]loss: 305.1539306640625 loss(avg): 5653.770492553711:   6%|▌         | 3/50 [00:45<08:24, 10.73s/it]loss: 305.1539306640625 loss(avg): 5653.770492553711:   8%|▊         | 4/50 [00:45<06:51,  8.95s/it]loss: 9600.8017578125 loss(avg): 6443.176745605469:   8%|▊         | 4/50 [00:51<06:51,  8.95s/it]  loss: 9600.8017578125 loss(avg): 6443.176745605469:  10%|█         | 5/50 [00:51<06:00,  8.00s/it]loss: 6486.43994140625 loss(avg): 6450.387278238933:  10%|█         | 5/50 [00:57<06:00,  8.00s/it]loss: 6486.43994140625 loss(avg): 6450.387278238933:  12%|█▏        | 6/50 [00:57<05:25,  7.40s/it]loss: 9872.9560546875 loss(avg): 6939.325674874442:  12%|█▏        | 6/50 [01:03<05:25,  7.40s/it] loss: 9872.9560546875 loss(avg): 6939.325674874442:  14%|█▍        | 7/50 [01:03<05:01,  7.01s/it]loss: 1030.1041259765625 loss(avg): 6200.672981262207:  14%|█▍        | 7/50 [01:10<05:01,  7.01s/it]loss: 1030.1041259765625 loss(avg): 6200.672981262207:  16%|█▌        | 8/50 [01:10<04:44,  6.77s/it]loss: 1038.0859375 loss(avg): 5627.052198621962:  16%|█▌        | 8/50 [01:16<04:44,  6.77s/it]      loss: 1038.0859375 loss(avg): 5627.052198621962:  18%|█▊        | 9/50 [01:16<04:30,  6.61s/it]loss: 2638.776123046875 loss(avg): 5328.224591064453:  18%|█▊        | 9/50 [01:22<04:30,  6.61s/it]loss: 2638.776123046875 loss(avg): 5328.224591064453:  20%|██        | 10/50 [01:22<04:18,  6.47s/it]loss: 2777.466552734375 loss(avg): 5096.33749667081:  20%|██        | 10/50 [01:28<04:18,  6.47s/it] loss: 2777.466552734375 loss(avg): 5096.33749667081:  22%|██▏       | 11/50 [01:28<04:10,  6.41s/it]loss: 403.5735168457031 loss(avg): 4705.273831685384:  22%|██▏       | 11/50 [01:35<04:10,  6.41s/it]loss: 403.5735168457031 loss(avg): 4705.273831685384:  24%|██▍       | 12/50 [01:35<04:02,  6.38s/it]loss: 4256.52685546875 loss(avg): 4670.754833514874:  24%|██▍       | 12/50 [01:41<04:02,  6.38s/it] loss: 4256.52685546875 loss(avg): 4670.754833514874:  26%|██▌       | 13/50 [01:41<03:54,  6.34s/it]loss: 1697.1212158203125 loss(avg): 4458.352432250977:  26%|██▌       | 13/50 [01:47<03:54,  6.34s/it]loss: 1697.1212158203125 loss(avg): 4458.352432250977:  28%|██▊       | 14/50 [01:47<03:48,  6.36s/it]loss: 1933.1083984375 loss(avg): 4290.002829996744:  28%|██▊       | 14/50 [01:53<03:48,  6.36s/it]   loss: 1933.1083984375 loss(avg): 4290.002829996744:  30%|███       | 15/50 [01:53<03:40,  6.31s/it]loss: 841.7167358398438 loss(avg): 4074.4849491119385:  30%|███       | 15/50 [02:00<03:40,  6.31s/it]loss: 841.7167358398438 loss(avg): 4074.4849491119385:  32%|███▏      | 16/50 [02:00<03:33,  6.27s/it]loss: 3148.855224609375 loss(avg): 4020.036141788258:  32%|███▏      | 16/50 [02:06<03:33,  6.27s/it] loss: 3148.855224609375 loss(avg): 4020.036141788258:  34%|███▍      | 17/50 [02:06<03:26,  6.25s/it]loss: 4666.63720703125 loss(avg): 4055.9584231906465:  34%|███▍      | 17/50 [02:12<03:26,  6.25s/it]loss: 4666.63720703125 loss(avg): 4055.9584231906465:  36%|███▌      | 18/50 [02:12<03:21,  6.28s/it]loss: 941.7744140625 loss(avg): 3892.0540016575865:  36%|███▌      | 18/50 [02:18<03:21,  6.28s/it]  loss: 941.7744140625 loss(avg): 3892.0540016575865:  38%|███▊      | 19/50 [02:18<03:13,  6.24s/it]loss: 919.7860717773438 loss(avg): 3743.440605163574:  38%|███▊      | 19/50 [02:25<03:13,  6.24s/it]loss: 919.7860717773438 loss(avg): 3743.440605163574:  40%|████      | 20/50 [02:25<03:07,  6.25s/it]loss: 1990.552734375 loss(avg): 3659.9697541736423:  40%|████      | 20/50 [02:31<03:07,  6.25s/it]  loss: 1990.552734375 loss(avg): 3659.9697541736423:  42%|████▏     | 21/50 [02:31<02:59,  6.18s/it]loss: 760.9745483398438 loss(avg): 3528.19724481756:  42%|████▏     | 21/50 [02:37<02:59,  6.18s/it]loss: 760.9745483398438 loss(avg): 3528.19724481756:  44%|████▍     | 22/50 [02:37<02:53,  6.21s/it]loss: 1243.1517333984375 loss(avg): 3428.847439973251:  44%|████▍     | 22/50 [02:43<02:53,  6.21s/it]loss: 1243.1517333984375 loss(avg): 3428.847439973251:  46%|████▌     | 23/50 [02:43<02:47,  6.20s/it]loss: 806.9602661132812 loss(avg): 3319.6021410624185:  46%|████▌     | 23/50 [02:49<02:47,  6.20s/it]loss: 806.9602661132812 loss(avg): 3319.6021410624185:  48%|████▊     | 24/50 [02:49<02:41,  6.20s/it]loss: 2840.2275390625 loss(avg): 3300.427156982422:  48%|████▊     | 24/50 [02:55<02:41,  6.20s/it]   loss: 2840.2275390625 loss(avg): 3300.427156982422:  50%|█████     | 25/50 [02:55<02:34,  6.19s/it]loss: 591.3352661132812 loss(avg): 3196.2313150259165:  50%|█████     | 25/50 [03:02<02:34,  6.19s/it]loss: 591.3352661132812 loss(avg): 3196.2313150259165:  52%|█████▏    | 26/50 [03:02<02:29,  6.22s/it]loss: 29.351274490356445 loss(avg): 3078.9394616727477:  52%|█████▏    | 26/50 [03:08<02:29,  6.22s/it]loss: 29.351274490356445 loss(avg): 3078.9394616727477:  54%|█████▍    | 27/50 [03:08<02:22,  6.22s/it]loss: 15.587651252746582 loss(avg): 2969.534039872033:  54%|█████▍    | 27/50 [03:14<02:22,  6.22s/it] loss: 15.587651252746582 loss(avg): 2969.534039872033:  56%|█████▌    | 28/50 [03:14<02:16,  6.21s/it]loss: 517.658203125 loss(avg): 2884.986597225584:  56%|█████▌    | 28/50 [03:20<02:16,  6.21s/it]     loss: 517.658203125 loss(avg): 2884.986597225584:  58%|█████▊    | 29/50 [03:20<02:09,  6.19s/it]loss: 863.580810546875 loss(avg): 2817.6064043362935:  58%|█████▊    | 29/50 [03:26<02:09,  6.19s/it]loss: 863.580810546875 loss(avg): 2817.6064043362935:  60%|██████    | 30/50 [03:26<02:03,  6.16s/it]loss: 245.89910888671875 loss(avg): 2734.6481044830816:  60%|██████    | 30/50 [03:32<02:03,  6.16s/it]loss: 245.89910888671875 loss(avg): 2734.6481044830816:  62%|██████▏   | 31/50 [03:32<01:56,  6.11s/it]loss: 776.187255859375 loss(avg): 2673.4462029635906:  62%|██████▏   | 31/50 [03:38<01:56,  6.11s/it]  loss: 776.187255859375 loss(avg): 2673.4462029635906:  64%|██████▍   | 32/50 [03:38<01:49,  6.08s/it]loss: 220.2487335205078 loss(avg): 2599.10688570774:  64%|██████▍   | 32/50 [03:44<01:49,  6.08s/it] loss: 220.2487335205078 loss(avg): 2599.10688570774:  66%|██████▌   | 33/50 [03:44<01:43,  6.10s/it]loss: 377.2083435058594 loss(avg): 2533.756928584155:  66%|██████▌   | 33/50 [03:51<01:43,  6.10s/it]loss: 377.2083435058594 loss(avg): 2533.756928584155:  68%|██████▊   | 34/50 [03:51<01:37,  6.10s/it]loss: 484.6184997558594 loss(avg): 2475.210116331918:  68%|██████▊   | 34/50 [03:57<01:37,  6.10s/it]loss: 484.6184997558594 loss(avg): 2475.210116331918:  70%|███████   | 35/50 [03:57<01:32,  6.14s/it]loss: 93.25775146484375 loss(avg): 2409.044772863388:  70%|███████   | 35/50 [04:03<01:32,  6.14s/it]loss: 93.25775146484375 loss(avg): 2409.044772863388:  72%|███████▏  | 36/50 [04:03<01:26,  6.19s/it]loss: 109.07176971435547 loss(avg): 2346.8833403458466:  72%|███████▏  | 36/50 [04:09<01:26,  6.19s/it]loss: 109.07176971435547 loss(avg): 2346.8833403458466:  74%|███████▍  | 37/50 [04:09<01:20,  6.16s/it]loss: 528.3994140625 loss(avg): 2299.0285001804955:  74%|███████▍  | 37/50 [04:15<01:20,  6.16s/it]    loss: 528.3994140625 loss(avg): 2299.0285001804955:  76%|███████▌  | 38/50 [04:15<01:13,  6.11s/it]loss: 391.0334777832031 loss(avg): 2250.1055508882573:  76%|███████▌  | 38/50 [04:21<01:13,  6.11s/it]loss: 391.0334777832031 loss(avg): 2250.1055508882573:  78%|███████▊  | 39/50 [04:21<01:07,  6.14s/it]loss: 377.0145568847656 loss(avg): 2203.2782760381697:  78%|███████▊  | 39/50 [04:28<01:07,  6.14s/it]loss: 377.0145568847656 loss(avg): 2203.2782760381697:  80%|████████  | 40/50 [04:28<01:01,  6.13s/it]loss: 117.1419448852539 loss(avg): 2152.396902107611:  80%|████████  | 40/50 [04:34<01:01,  6.13s/it] loss: 117.1419448852539 loss(avg): 2152.396902107611:  82%|████████▏ | 41/50 [04:34<00:55,  6.13s/it]loss: 162.34176635742188 loss(avg): 2105.0146369707018:  82%|████████▏ | 41/50 [04:40<00:55,  6.13s/it]loss: 162.34176635742188 loss(avg): 2105.0146369707018:  84%|████████▍ | 42/50 [04:40<00:49,  6.17s/it]loss: 163.66937255859375 loss(avg): 2059.867072682048:  84%|████████▍ | 42/50 [04:46<00:49,  6.17s/it] loss: 163.66937255859375 loss(avg): 2059.867072682048:  86%|████████▌ | 43/50 [04:46<00:43,  6.15s/it]loss: 2155.044189453125 loss(avg): 2062.0301889722996:  86%|████████▌ | 43/50 [04:52<00:43,  6.15s/it]loss: 2155.044189453125 loss(avg): 2062.0301889722996:  88%|████████▊ | 44/50 [04:52<00:36,  6.09s/it]loss: 460.1883544921875 loss(avg): 2026.4337037616306:  88%|████████▊ | 44/50 [04:58<00:36,  6.09s/it]loss: 460.1883544921875 loss(avg): 2026.4337037616306:  90%|█████████ | 45/50 [04:58<00:30,  6.13s/it]loss: 251.40557861328125 loss(avg): 1987.846135823623:  90%|█████████ | 45/50 [05:04<00:30,  6.13s/it]loss: 251.40557861328125 loss(avg): 1987.846135823623:  92%|█████████▏| 46/50 [05:04<00:24,  6.15s/it]loss: 310.4705505371094 loss(avg): 1952.1572935834845:  92%|█████████▏| 46/50 [05:10<00:24,  6.15s/it]loss: 310.4705505371094 loss(avg): 1952.1572935834845:  94%|█████████▍| 47/50 [05:10<00:18,  6.12s/it]loss: 662.0147705078125 loss(avg): 1925.2793243527412:  94%|█████████▍| 47/50 [05:16<00:18,  6.12s/it]loss: 662.0147705078125 loss(avg): 1925.2793243527412:  96%|█████████▌| 48/50 [05:16<00:12,  6.07s/it]loss: 65.94195556640625 loss(avg): 1887.333663765265:  96%|█████████▌| 48/50 [05:23<00:12,  6.07s/it] loss: 65.94195556640625 loss(avg): 1887.333663765265:  98%|█████████▊| 49/50 [05:23<00:06,  6.10s/it]loss: 988.2391967773438 loss(avg): 1869.3517744255066:  98%|█████████▊| 49/50 [05:29<00:06,  6.10s/it]loss: 988.2391967773438 loss(avg): 1869.3517744255066: 100%|██████████| 50/50 [05:29<00:00,  6.12s/it]loss: 988.2391967773438 loss(avg): 1869.3517744255066: 100%|██████████| 50/50 [05:29<00:00,  6.58s/it]
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+25
+look torch.Size([12, 3, 50, 2]) torch.Size([12, 50, 2]) torch.Size([12, 50])
+Losses Saved
