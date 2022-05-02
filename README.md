@@ -23,4 +23,4 @@ The bash script contains sample dataset of (55MB) which can be automatically dow
 
 The models are saved to a folder named Out with (.pth) format and the training loss is saved in (.csv) fie within the folder.
 
-![Training loss](/assets/training_loss for all networks normalized.png?raw=true "Training loss for all networks normalized" )
+![Training loss](assets/training_loss for all networks normalized.png?raw=true "Training loss for all networks normalized" )
