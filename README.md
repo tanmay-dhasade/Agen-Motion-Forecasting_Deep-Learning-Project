@@ -1,5 +1,6 @@
 # Agen-Motion-Forecasting_Deep-Learning-Project
 
+## Folder structure for each model
 Each folder contains the execution of a model with following file structure:  
 |  
 |---|--agent_motion_config.yaml  
@@ -8,7 +9,7 @@ Each folder contains the execution of a model with following file structure:
     |--run_train_sbatch.sh  
     
     
-    
+  
 agent_motion_config.yaml- The file defines the parameters like model architechture, history_frames, future_frames and image size 
 
 agent_motion_prediction.py- The python script to be executed containing the model scripts and training script it saves the trained model and the training loss to be plotted
