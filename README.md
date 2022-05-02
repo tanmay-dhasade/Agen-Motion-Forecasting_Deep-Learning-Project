@@ -26,4 +26,11 @@ The models are saved to a folder named Out with (.pth) format and the training l
 <!-- ![Training loss](assets/training_loss for all networks normalized.png?raw=true "Training loss for all networks normalized" ) -->
 <!-- <img src="https://github.com/tanmay-dhasade/Agen-Motion-Forecasting_Deep-Learning-Project/tree/main/assets/training_loss for all networks normalized.png?raw=true" alt="Alt text" title="Training loss for model">
  -->
+ ### The training loss for all the trained networks normalized 
  ![alt text](https://github.com/tanmay-dhasade/Agen-Motion-Forecasting_Deep-Learning-Project/blob/main/assets/trainig_loss_for_all_networks_normalized.png)
+
+### Model output visualized for Inception network
+![alt text](https://github.com/tanmay-dhasade/Agen-Motion-Forecasting_Deep-Learning-Project/blob/main/assets/inception.png)
+![alt text](https://github.com/tanmay-dhasade/Agen-Motion-Forecasting_Deep-Learning-Project/blob/main/assets/inception1.png)
+![alt text](https://github.com/tanmay-dhasade/Agen-Motion-Forecasting_Deep-Learning-Project/blob/main/assets/inception2.png)
+![alt text](https://github.com/tanmay-dhasade/Agen-Motion-Forecasting_Deep-Learning-Project/blob/main/assets/inception3.png)
