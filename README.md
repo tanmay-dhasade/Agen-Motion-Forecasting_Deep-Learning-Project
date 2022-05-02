@@ -26,4 +26,4 @@ The models are saved to a folder named Out with (.pth) format and the training l
 <!-- ![Training loss](assets/training_loss for all networks normalized.png?raw=true "Training loss for all networks normalized" ) -->
 <!-- <img src="https://github.com/tanmay-dhasade/Agen-Motion-Forecasting_Deep-Learning-Project/tree/main/assets/training_loss for all networks normalized.png?raw=true" alt="Alt text" title="Training loss for model">
  -->
- ![alt text](https://github.com/tanmay-dhasade/Agen-Motion-Forecasting_Deep-Learning-Project/tree/main/assets/training_loss for all networks normalized.png?raw=true)
+ ![alt text]("https://github.com/tanmay-dhasade/Agen-Motion-Forecasting_Deep-Learning-Project/tree/main/assets/training_loss for all networks normalized.png?raw=true")
