@@ -18,6 +18,7 @@ setup_local_data.sh- This bash script is used to set local data path and extract
 run_train_sbatch.sh -  This bash script is used to run the python script on the WPI ace cluster
 
 The dataset can be downloaded from: https://woven-planet.github.io/l5kit/dataset.html
+Github repo link: https://github.com/woven-planet/l5kit
  
 The bash script contains sample dataset of (55MB) which can be automatically downloaded and extracted by the script itself.
 
