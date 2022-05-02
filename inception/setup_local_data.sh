@@ -12,6 +12,8 @@ TEMP_DATASET_DIR='/home/trdhasade/ExtractedDataset'
 # mkdir -p $TEMP_DATASET_DIR/scenes
 # tar xf $TEMP_DOWNLOAD_DIR/train_2.tar -C $TEMP_DATASET_DIR/scenes
 # echo "Train.tar done ................"
+
+
 # # Download semantic map
 # # echo "Downloading semantic map..."
 # # wget https://lyft-l5-datasets-public.s3-us-west-2.amazonaws.com/prediction/v1.1/semantic_map.tar \
@@ -20,6 +22,8 @@ TEMP_DATASET_DIR='/home/trdhasade/ExtractedDataset'
 # tar xf $TEMP_DOWNLOAD_DIR/semantic_map.tar -C $TEMP_DATASET_DIR/semantic_map
 # cp $TEMP_DATASET_DIR/semantic_map/meta.json $TEMP_DATASET_DIR/meta.json
 # echo "Semantic map done ........."
+
+
 # # Download aerial maps
 # # echo "Downloading aerial maps (this can take a while)..."
 # # wget https://lyft-l5-datasets-public.s3-us-west-2.amazonaws.com/prediction/v1.1/aerial_map.tar \
